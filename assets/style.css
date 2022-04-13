@@ -1,0 +1,120 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #202124;
+  color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+  max-width: 1360px;
+}
+
+
+.navbar{
+  display: flex;
+  justify-content: flex-end;
+  
+}
+
+.navbar ul{
+  display: flex;
+  
+  align-items: center;
+}
+  
+.navbar ul li{
+  list-style: none;
+  padding: 10px;
+}
+
+.navbar ul li a{
+  text-decoration: none;
+  font-size: 13px;
+}
+.navbar ul li a:hover{
+  text-decoration: underline;
+}
+.navbar img{
+  display: flex;
+  justify-content: center;
+}
+
+.avatar{
+  height: 35px;
+}
+
+.content{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.search-bar{
+  width: 600px;
+  height: 44px;
+  border-radius: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #5F6368;
+  margin-top: 40px;
+  padding-left: 15px;
+}
+
+.search .search-bar input{
+  flex-grow: 1;
+  height: 30px;
+  outline: none;
+  border: none;
+  margin-right: 15px;
+  font-size: 18px;
+  
+}
+
+.search .search-bar img{
+  cursor: pointer;
+  margin-right: 15px;
+}
+
+.search-buttons{
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.search-buttons button{
+  margin: 11px 4px;
+  width: 140px;
+  height: 36px;
+  padding: 0 16px;
+  cursor: pointer;
+  border: 1px solid #303134;
+  background-color: #303134;
+  color: #e8eaed;
+  font-size: 14px;
+  font-family: Arial, Helvetica, sans-serif;
+  border-radius: 4px;
+  text-align: center;
+}
+.search-buttons button:hover{
+  border: 1px solid #5F6368;
+}
+
+
+.content p{
+  font-size: 13px;
+  color: #ccc;
+}
+.content p a{
+  color: #4994F8;
+  text-decoration: none;
+}
+
+.content p a:hover{
+  text-decoration: underline;
+}
